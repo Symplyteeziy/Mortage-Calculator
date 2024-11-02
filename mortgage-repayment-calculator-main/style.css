@@ -1,0 +1,249 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    min-height: 100vh;
+}
+.mor-container{
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, .4);
+    
+    
+}
+.mortage-con{
+    display: grid;
+    place-items: center;
+}
+.left{
+    width: 300px;
+    padding: 15px;
+}
+
+.top-left{
+    display: flex;
+}
+.mortage-amo{
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+.mortage-cal{
+    font-family: 'PlusJakartaSans-VariableFont_wght', sans-serif;
+    font-weight: 600;
+    padding-right: 70px;
+    font-size: 12px;
+
+}
+
+.clear-all{
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'PlusJakartaSans-Medium', sans-serif;
+    color: hsl(202, 55%, 16%);
+}
+.right-container{
+    width: 350px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: hsl(202, 55%, 16%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'PlusJakartaSans-Medium' , sans-serif;
+}
+
+label{
+    font-family: 'PlusJakartaSans-Medium';
+    font-size: 12px;
+}
+.rugg{
+    padding: 20px;
+    padding-top: 50px;
+}
+.shown-text{
+    font-size: .6rem;
+    color: hsl(202, 21%, 64%);
+}
+.dollar{
+    background: wheat;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+
+.prefix,
+.suffix {
+    position: absolute;
+    color: #6b7280;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.prefix {
+    background: hsl(202, 86%, 94%);
+    width: 5px;
+    border: 2px;
+    height: 19.7px;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    left: 391px;
+    margin-top: 1.4px;
+ }
+
+.suffix {
+    right: 864px;
+    font-size: 14px; 
+    text-align: center;
+    width: 33px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 19.7px;
+    margin-top: 1.4px;
+    background: hsl(202, 86%, 94%);
+}
+#suffix1{
+    right: 732px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    background: hsl(202, 86%, 94%);
+    width: 12px;
+    margin-top: 1.4px;
+    height: 19.7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+}
+
+        /* Input box styling with padding adjustments */
+.input-box {
+    width: 75%;
+    border-left: none;
+    /* Adjusts padding to avoid overlapping with prefix/suffix *
+    /* Additional padding for the left if there's a prefix */
+    /* Additional padding for the right if there's a suffix */
+    font-size: 16px;
+    border: 2px solid hsl(200, 24%, 40%);
+    border-radius: 1.8px;
+    background-color: hsl(0, 0%, 100%);
+    border-width: .2px;
+}
+#mortage-amount{
+    padding-left: 25px;
+}
+.input-box:hover{
+    border-width: .2px;
+    border-color: hsl(61, 70%, 52%);
+}
+.input-box:focus{
+    border-color: aqua;
+    border-width: .4px;
+}
+input:active{
+    border-color: aqua;
+}
+#input-con{
+    display: flex;
+    width: 10%;
+}
+.time{
+    display: inline-flex;
+    padding-bottom: 8px;
+}
+#interest-rate, #mortgage-term{
+    width: 69%;
+    
+}
+.pay-plan{
+    border: 2px solid hsl(200, 24%, 40%);
+    border-radius: 4px;
+    width: 84%;
+    padding: 3px;
+    border-width: 2px;
+    border-top-width: 1px;
+}
+
+.payplan{
+    padding: 5px;
+}
+button{
+    border-radius: 28px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    background: hsl(61, 70%, 52%);
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    cursor: pointer;
+    font-family: 'PlusJakartaSans-Bold', sans-serif;
+    
+}
+.icon-cal{
+    text-align: center;
+}
+
+
+
+.answer-container {
+    width: 350px;
+    padding: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 60px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: hsl(202, 55%, 16%);
+    text-align: left;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'PlusJakartaSans-Medium', sans-serif;
+}
+p{
+    font-family: 'PlusJakartaSans-VariableFont_wght';
+    color: hsl(204, 28%, 79%);
+    font-size: 12.5px;
+    font-weight: lighter;
+}
+.your-con{
+    background: hsl(201, 91%, 9%);
+    border: 2px;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: hsl(61, 70%, 52%);
+    border-top-style: groove;
+    padding: 16px;
+}
+.your-top{
+    line-height: .3;
+    padding-bottom: 2px;
+}
+.your-ans{
+    font-size: 30px;
+    font-family: 'PlusJakartaSans-Bold' sans-serif;
+    color: hsl(61, 70%, 52%);
+}
+.line{
+    position: absolute;
+    width: 19%;
+    height: 2px;
+    background-color: hsl(202, 55%, 16%);
+    text-align: center;
+}
+.ans-text{
+    padding-bottom: 10px;
+}
+.your-repay{
+    font-size: 14.8px;
+}
